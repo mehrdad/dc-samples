@@ -13,6 +13,15 @@ d3.csv("data/foreignAssistance.csv", function (data) {
     // put data in crossfilter
     var facts = crossfilter(data);
 
+    //TYPE TUTORIAL CODE HERE
+
+
+    //END TUTORIAL CODE
+
     // draw all dc charts. w/o this nothing happens!  
+    console.log("Data Debug: ", data);
     dc.renderAll();
 });
+
+// TYPE STEP SIX CODE BELOW
+
